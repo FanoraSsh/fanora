@@ -7,7 +7,7 @@ FONT="\033[0m"
 GREENBG="\033[42;37m"
 REDBG="\033[41;37m"
 NC='\e[0m'
-REPOS="https://raw.githubusercontent.com/HendraVPN/Script/main/"
+REPOS="https://raw.githubusercontent.com/Pemulaajiw/script/main/"
 ns_domain_cloudflare() {
 	DOMAIN="h3nstore.my.id"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
