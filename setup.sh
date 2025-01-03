@@ -263,7 +263,7 @@ echo $host1 > /root/domain
 echo ""
 elif [[ $host == "2" ]]; then
 #install cf
-wget ${REPO}files/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/FanoraSsh/fanora/main/cf.sh && chmod +x cf.sh && ./cf.sh
 rm -f /root/cf.sh
 clear
 else
@@ -316,8 +316,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="-"
-KEY="-"
+CHATID="7280668462"
+KEY="8009674740:AAEzM2VCd_Oq1pPG7TAJQ-3ly-TNwwNiCTQ"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
