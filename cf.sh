@@ -17,7 +17,7 @@ echo ""
 echo ""
 echo ""
 #sub=$(</dev/urandom tr -dc a-z0-9 | head -c3)
-read -rp "Input Domain Name. Example ( Hendra-Store ): " -e sub
+read -rp "Input Domain Name. Example ( fanora-prem ): " -e sub
 DOMAIN=h3nstore.my.id
 SUB_DOMAIN=${sub}.h3nstore.my.id
 CF_ID=hurufkapital58@gmail.com
